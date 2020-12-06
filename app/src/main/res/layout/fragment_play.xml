@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".ui.play.PlayFragment">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/profile_pic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_play"
+                android:layout_marginTop="6dp"
+                android:text="6 Items"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/text_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Dashboard"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/pocketcash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/abril_fatface"
+                android:textColor="#E8E3E3"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+        <GridLayout
+            android:id="@+id/playGrid"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/new_born"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:src="@drawable/money_bag"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="New Born"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/infant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:src="@drawable/loan"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="Infant"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:src="@drawable/piggi"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="Troublesome Teen"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:src="@drawable/paise_hath_mein"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="Young Adult"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:src="@drawable/infographic"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="Midlife Crisis"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:src="@drawable/excahnge_rate"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="Mature"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

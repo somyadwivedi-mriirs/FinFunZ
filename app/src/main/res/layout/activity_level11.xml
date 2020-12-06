@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4985DE"
+    tools:context=".level11">
+
+
+    <TextView
+        android:id="@+id/pocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFCFC"
+        android:fontFamily="@font/abril_fatface"
+        android:paddingTop="40dp"
+        android:text="Pocket Balance"
+        android:textAlignment="gravity"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFCFC"
+        android:fontFamily="@font/abril_fatface"
+        android:paddingTop="40dp"
+        android:text="Bank Balance"
+        android:textAlignment="gravity"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/withdrawAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="#F6F5F5"
+        android:ems="10"
+        android:hint="Enter Withdraw Amount"
+        android:inputType="number"
+        android:paddingTop="30dp"
+        android:textAlignment="gravity"
+        android:textColorHint="#090909" />
+
+    <Button
+        android:id="@+id/withdraw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Ok" />
+
+    <EditText
+        android:id="@+id/depositAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FDFCFC"
+        android:ems="10"
+        android:hint="Enter Deposit Amount"
+        android:inputType="number"
+        android:paddingTop="30dp"
+        android:textColorHint="#100F0F" />
+
+    <Button
+        android:id="@+id/deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Ok" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="120dp"
+        android:text="Done" />
+</LinearLayout>

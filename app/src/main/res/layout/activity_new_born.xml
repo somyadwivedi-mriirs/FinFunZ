@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/money_bag"
+    android:backgroundTint="#BECAF1"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    tools:context=".NewBorn">
+
+    <Button
+        android:id="@+id/level1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:background="#1D1629"
+        android:backgroundTint="#1E65BD"
+        android:filterTouchesWhenObscured="false"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/level_1"
+        android:textSize="30sp"
+        app:iconPadding="20dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <Button
+        android:id="@+id/level2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:background="#1D1629"
+        android:backgroundTint="#1E65BD"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/level_2"
+        android:textSize="30sp"
+        app:iconPadding="20dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <Button
+        android:id="@+id/level3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:background="#673AB7"
+        android:backgroundTint="#1E65BD"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/level_3"
+        android:textSize="30sp"
+        app:iconPadding="20dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+
+</LinearLayout>
